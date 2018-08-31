@@ -1,0 +1,596 @@
+ body {
+                  background-color:black;
+                  margin:0px;
+
+
+}
+.container{
+              
+
+}
+.head{
+        position:relative;
+        height:200px;
+        width:200px;
+        border:1px solid black;
+        border-radius:50%;
+        margin:0 auto;
+        background-color:#51A4F1;
+         box-shadow:10px 100px 800px #51A4F1;
+        
+    }
+
+
+div.inh{
+        position:relative;
+        height:160px;
+        width:170px;
+        border:1px solid black;
+        border-top-right-radius:40%;
+        border-radius:50%;
+        margin:40px auto;
+        background-color:white;
+
+
+}
+.roundnose
+{
+    height:25px;
+    width:25px;
+    margin-left:24%;
+    border-radius:50%;
+    background-color:#BC0C0C;
+}
+.inround
+{
+    background-color:white;
+    height:7px;
+    width:7px;
+    border-radius:50%;
+    margin:auto auto;
+    margin-top:-15px;
+}
+.nose
+{
+            position:relative;
+
+            height:85px;
+            width:1px;
+            margin:0 auto;
+            margin-top:0px;
+            background-color:black;
+}
+.mouth
+        {
+            position:relative;
+            height:130px;
+            width:140px;
+             border-bottom:2px solid black;
+            border-radius:48%;
+            margin-top:-130px;
+            margin-left:10px;
+            animation-name: smile;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+
+
+        }
+
+@keyframes smile {
+    0%   {}
+    25%  {
+            border-radius: 50%;
+        }
+    50%  {}
+    75%  {}
+    100% {border-color: red;
+                    border-radius: 50%;
+                    border-bottom: 8px solid red;
+                }
+}
+
+
+.eyecont
+{
+   margin-top:-25px;
+   margin-left:40px ;
+   position:relative;
+}
+.eye
+{
+     position:relative;
+    display:inline-block;
+    height:50px;
+    width:40px;
+    border:1px solid black;
+    border-radius:50%;
+    background-color:white;
+
+}
+.eye2
+    {
+        height:20px;
+        width:20px;
+        background-color:black;
+        border-radius:50%;
+        margin:15px auto;
+        border-bottom:2px solid black;
+        animation-name: winky;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+
+
+    }
+.eye3
+    {
+        position:relative;
+        height:5px;
+        width:5px;
+        background-color:white;
+        border-radius:50%;
+        margin:0px auto;
+        margin-top:-28px;
+
+    }
+
+
+
+
+.eyel
+    {
+         height:20px;
+        width:20px;
+        background-color:white;
+        border-bottom:2px solid black;
+        border-radius:50%;
+        margin:15px auto;
+        animation-name: winky;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+
+    }
+
+@keyframes winky
+    {
+        0%   {    
+                    background-color: white;
+                    border-radius: 50%;
+    
+                }
+        25%  {background-color: white;}
+        50%  {background-color: black;}
+        75%  {background-color: white;}
+        100% {background-color: white;}
+    }
+.mm
+    {
+        position:relative;
+    
+        margin:0 auto;
+        margin-top:-200px;
+    }
+#m1,#m2,#m3
+       {
+            width:50px;
+            height:1px;
+            background-color:black;
+            margin-top:10px;
+                border-radius:50%;
+       }
+#m1
+    {
+        background-color: black;
+        -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Safari 3-8 */
+        transform: rotate(20deg);
+        margin-bottom:30px;
+     }
+#m2
+    {
+            background-color: black;
+            -ms-transform: rotate(180deg); /* IE 9 */
+            -webkit-transform: rotate(180deg); /* Safari 3-8 */
+            transform: rotate(180deg);
+            margin:10px;
+    }
+#m3{
+        background-color: black;
+        -ms-transform: rotate(-200deg); /* IE 9 */
+        -webkit-transform: rotate(-200deg); /* Safari 3-8 */
+        transform: rotate(-200deg);
+        margin-top:30px;
+}
+
+#lm{
+        position: relative;
+        display:inline-block;
+        margin-top:10px;
+
+
+}
+
+
+
+#rm{
+        
+        position:relative;
+        display:inline-block;
+        margin-left:60%;
+        margin-top:-60px;
+        
+        -ms-transform: rotate(180deg); /* IE 9 */
+         -webkit-transform: rotate(180deg); /* Safari 3-8 */
+         transform: rotate(180deg);
+
+
+
+}
+
+
+
+
+
+.body
+{
+        position: relative;
+        height:150px;
+        width:150px;
+        border-bottom-left-radius: 35%;
+        border-bottom-right-radius: 38%;
+        border-top-right-radius: 30%;
+        border-top-left-radius: 30%;
+        margin:0 auto;
+        margin-top:-35px;
+        background-color: white;
+        overflow: hidden;
+        background-color:#51A4F1;
+}
+.pac_container{
+        height:150px;
+        width:120px;
+        margin:10px auto;
+        margin-top:-10px;
+        border:1px solid black;
+        border-radius: 50%;
+        background-color: white;
+}
+
+.coller
+                {
+                        position: relative;
+                        width:130px;
+                        height:8px;
+                        background-color: #BC0C0C;
+                        border: 1px solid black;
+                        margin:0 auto;
+                        margin-top:-150px;
+                        border-bottom-left-radius: 50%;
+                        border-bottom-right-radius: 50%;
+                        border-top-right-radius: 30%;
+                        border-top-left-radius: 30%;
+
+
+
+                }
+.badge
+                {
+                    position: relative;
+                    height:34px;
+                    width:30px;
+                    border:1px solid black;
+                    border-radius:50%;
+                    margin:0 auto;
+                    margin-top:-175px;
+                    background-color: #F5B223;
+
+                }
+.badgelo
+                {
+                        position:relative;
+                        margin:10px auto;
+                        width:29px;
+                        height:10px;
+
+                        border-top: 1px solid black;
+                        border-top-right-radius: 50%;
+                        border-top-left-radius: 50%;
+                        margin-top:3px;
+
+                }
+.badgelt
+                {
+                        position:relative;
+                        margin:10px auto;
+                        width:29px;
+                        height:10px;
+                        border-top: 1px solid black;
+                        border-top-right-radius: 50%;
+                        border-top-left-radius: 50%;
+                        margin-top:-16px;
+
+                }
+.badgec
+                {
+                        position:relative;
+                        margin:0px auto;
+                        width:5px;
+                        height:5px;
+                        border-radius:50%;
+                        border:1px solid black;
+                        margin-top:-10px;
+                }
+.badgell
+                {
+                        position:relative;
+                        margin:10px auto;
+                        width:1px;
+                        height:9px;
+                        background-color: black;
+                        margin-top:-1px;
+                }
+.packet
+                {
+                        position:relative;
+                        height:100px;
+                        width:80px;
+                        border-bottom:1px solid black;
+                        border-radius: 45%;
+                        margin:0 auto;
+                        margin-top: 10px;
+                }
+.pac_top_bor
+                {
+                        position:relative;
+                        width:80px;
+                        height: 1px;
+                        background-color:black;
+                        margin:45px auto;
+                }
+
+.leg
+        {
+
+                width:150px;
+
+                margin:0 auto;
+                margin-top: 84px;
+
+
+        }
+.legcontiner
+            {
+                position: relative;
+                width:140px;
+                display: block;
+                margin:0 auto;
+                margin-top: -161px;
+            }
+    .shoescontiner
+        {
+            display: block;
+            width:140px;
+            position: relative;
+            margin:105px auto;
+
+
+        }
+.lleg
+        {
+                display: inline-block;
+                position: relative;
+                width:43px;
+                height: 30px;
+
+                background-color:#51A4F1;
+                margin-left: 16px;
+                border-bottom: 2px solid black;
+                border-right: 10px solid#51A4F1;
+                border-top-right-radius: 50%;
+                border-bottom-right-radius: 50%;
+                border-bottom-left-radius: 50%;
+
+
+        }
+.rleg
+        {
+            display: inline-block;
+            position: relative;
+            width:43px;
+            height: 30px;
+            background-color:#51A4F1;
+
+            border-left: 7px solid#51A4F1;
+            border-top-left-radius: 50%;
+            border-bottom: 2px solid black;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            margin-left: -2px;
+
+
+        }
+    .lshoes
+        {
+                display:inline-block;
+                position: relative;
+                height:30px;
+                width:60px;
+                border-left: 1px solid black;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+                border-top-left-radius: 50%;
+                border-top-right-radius: 10%;
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 30%;
+                background-color:white;
+        }
+.rshoes
+        {
+            display:inline-block;
+            position: relative;
+            height:30px;
+            width:60px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            margin-left: 10px;
+            border-top-right-radius: 50%;
+            border-top-left-radius: 10%;
+            border-bottom-left-radius: 30%;
+            border-bottom-right-radius: 50%;
+            background-color:white;
+
+        }
+.hands
+            {
+                width:200px;
+                position: relative;
+                margin:0 auto;
+                margin-top:-15px;
+
+            }
+.lhand
+            {
+                position: relative;
+                height:30px;
+                width:80px;
+                margin:0 auto;
+                border-top:1px solid black;
+                border-bottom:1px solid black;
+                margin-left:-40px;
+                border-top-left-radius: 50%;
+                border-top-right-radius: 30%;
+                border-bottom-left-radius: 50%;
+                background-color:#51A4F1;
+                        -webkit-animation: lhandanim 2s infinite linear;
+
+
+            }
+            @-webkit-keyframes lhandanim
+            {
+                from {
+                        -webkit-transform: rotate(0deg);
+                    }
+                to {
+
+                                    -webkit-transform: rotate(20deg);
+
+                    }
+            }
+
+.lpalm
+            {
+                position: relative;
+                height:30px;
+                width:30px;
+                border:1px solid black;
+                border-radius: 50%;
+                margin-top:-7px;
+                margin-left: -20px;
+                background-color:white;
+            }
+            .rhand
+                        {
+                            position: relative;
+                            height:30px;
+                            width:80px;
+                            margin:0 auto;
+                            border-top:1px solid black;
+                            border-bottom:1px solid black;
+                            margin-left:160px;
+                            margin-top:-38px;
+                            border-top-right-radius: 50%;
+                            border-top-left-radius: 30%;
+                            border-bottom-right-radius: 50%;
+                            background-color:#51A4F1;
+                                -webkit-animation: rhandanim 2s infinite linear;
+
+                        }
+                        @-webkit-keyframes rhandanim 
+                        {
+                                from {
+                                        -webkit-transform: rotate(0deg);
+                                }
+                                to {
+                                        -webkit-transform: rotate(-20deg);
+                                }
+                        }
+.rpalm
+        {
+                position: relative;
+                float:right;
+                height:30px;
+                width:30px;
+                margin:0 auto;
+                border:1px solid black;
+                border-radius: 50%;
+                margin-top:-7px;
+                margin-right: -10px;
+                background-color:white;
+        }
+#doratext
+        {
+            margin:0 auto;
+            position:relative;
+            color :#2DF324;
+            font-size:15px;
+            width:80%;
+            margin-top:30px;
+            background-color:rgba(0,0,0,0.5);
+            padding:20px;
+            box-shadow:2px 1px 100px 0px black inset;
+            box-shadow: 0 8px 16px 0 rgba(0,244,0,0.2);
+            word-wrap: no-wrap;
+         
+            
+        }
+
+#heart
+        {
+                
+            -webkit-animation: heartanim 2s infinite linear;
+              
+
+        }
+#hcont
+        {
+            position:relative;
+            float:right;
+            background-color: rgba(255, 0, 0, 0.2);
+            box-shadow: 2px 1px 50px 10px rgba(255, 0, 0, 0.2), 2px 1px 50px 10px rgba(255, 0, 0, 0.2);
+            text-align: center;
+            height:20px;
+            width:20px;
+            border-radius:50%;
+            margin-left:-5px;
+            -webkit-animation: heartanim 2s infinite linear;
+          
+            
+        }
+
+       
+
+@keyframes heartanim
+    {
+        0%   {  height:5px; width:5px;  }
+        25%  {  height:10px; width:10px; }
+        50%  {  height:15px; width:15px;}
+        75%  {  height:18px; width:18px;}
+        100% {  height:20px; width:20px;}
+    }
+.doraonline
+        {
+                color:white;
+                
+        }
+#on
+        {
+                color:#2DF324;
+                display:inline;
+        }
+        
+/* 
+     Author: 「SUDHIR VERMA」
+     
+     
+*/
+        
