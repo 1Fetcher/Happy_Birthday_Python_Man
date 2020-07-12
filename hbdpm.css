@@ -241,12 +241,11 @@ div.inh{
         border-top-left-radius: 30%;
         margin:0 auto;
         margin-top:-35px;
-        background-color: white;
-        overflow: hidden;
+        background-color: white;    
         background-color:#51A4F1;
 }
 .pac_container{
-        height:150px;
+        height:140px;
         width:120px;
         margin:10px auto;
         margin-top:-10px;
